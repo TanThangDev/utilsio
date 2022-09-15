@@ -1,9 +1,10 @@
 import { IObject } from 'interface';
 
-export const removeNullObject = (object: IObject) => {
-  const result = {};
-  Object.keys(object).forEach((key) => {
-    if (object[key] !== null) result[key] = object[key];
-  });
-  return result;
+export const removeNullObject = (object: IObject): IObject => {
+  const newObject = { ...object };
+  for (const key in object) {
+    if (object[key] === null || object[key] === undefined)
+      delete newObject[key];
+  }
+  return newObject;
 };
