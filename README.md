@@ -31,6 +31,13 @@
 <summary>Table of Contents</summary>
 <ol>
   <li><a href="#transform">Transform</a></li>
+  <li><a href="#validate">Validate</a></li>
+  <li><a href="#object">Object</a></li>
+  <li><a href="#array">Array</a></li>
+  <li><a href="#string">String</a></li>
+  <li><a href="#number">Number</a></li>
+  <li><a href="#ip">Ip</a></li>
+  <li><a href="#url">Url</a></li>
 </ol>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -50,6 +57,78 @@
     <li><a href="/src/transform/transform.object.ts">Transform Object</a></li>
     <li><a href="/src/transform/transform.boolean.ts">Transform Boolean</a></li>
   </ul>
+
+## Validate
+
+  <ul>
+    <li><a href="/src/validate/index.ts#1">Validate Number</a></li>
+    <li><a href="/src/validate/index.ts#5">Validate String</a></li>
+    <li><a href="/src/validate/index.ts#9">Validate Array</a></li>
+    <li><a href="/src/validate/index.ts#13">Validate Object</a></li>
+    <li><a href="/src/validate/index.ts#17">Validate Email</a></li>
+    <li><a href="/src/validate/index.ts#21">Validate Password</a></li>
+    <li><a href="/src/validate/index.ts#25">Validate Phone</a></li>
+    <li><a href="/src/validate/index.ts#29">Validate Date</a></li>
+    <li><a href="/src/validate/index.ts#33">Validate Time</a></li>
+    <li><a href="/src/validate/index.ts#37">Validate Date Time</a></li>
+    <li><a href="/src/validate/index.ts#41">Validate Url</a></li>
+    <li><a href="/src/validate/index.ts#45">Validate Domain</a></li>
+    <li><a href="/src/validate/index.ts#49">Validate IP</a></li>
+    <li><a href="/src/validate/index.ts#53">Validate IPv4</a></li>
+    <li><a href="/src/validate/index.ts#59">Validate IPv6</a></li>
+    <li><a href="/src/validate/index.ts#63">Validate Hex</a></li>
+    <li><a href="/src/validate/index.ts#67">Validate Hexa</a></li>
+    <li><a href="/src/validate/index.ts#71">Validate Hex Color</a></li>
+    <li><a href="/src/validate/index.ts#75">Validate Hexa Color</a></li>
+    <li><a href="/src/validate/index.ts#79">Validate Base64</a></li>
+    <li><a href="/src/validate/index.ts#83">Validate Base64 Image</a></li>
+    <li><a href="/src/validate/index.ts#87">Validate Credit Card</a></li>
+  </ul>
+
+## Object
+
+  <ul>
+    <li><a href="/src/object/removeEmptyObject.ts">Remove Empty Object</a></li>
+    <li><a href="/src/object/removeNullObject.ts">Remove Null Object</a></li>
+    <li><a href="/src/object/uniqueObject.ts">Unique Object</a></li>
+  </ul>
+
+## Array
+
+  <ul>
+    <li><a href="/src/array/removeEmptyArray.ts">Remove Empty Array</a></li>
+    <li><a href="/src/array/uniqueArray.ts">Unique Array</a></li>
+    <li><a href="/src/array/uniqueArrayObject">Unique Array Object</a></li>
+  </ul>
+
+## String
+
+  <ul>
+    <li><a href="/src/string/randomString.ts">Random String</a></li>
+    <li><a href="/src/string/stripcslashes.ts">stripcslashes</a></li>
+    <li><a href="/src/string/parseVariables.ts">parseVariables</a></li>
+  </ul>
+
+## Number
+
+  <ul>
+    <li><a href="#">Todo</a></li>
+  </ul>
+
+## Ip
+
+  <ul>
+    <li><a href="/src/ip/getIpFromRequest.ts">Get Ip From Request</a></li>
+  </ul>
+
+## Url
+
+  <ul>
+    <li><a href="/src/url/getDomainFromUrl.ts">Get Domain From Url</a></li>
+    <li><a href="/src/url/isValidHttpUrl.ts">is Valid Http Url</a></li>
+  </ul>
+
+<!-- SETTING -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/TanThangDev/utilsio.svg?style=for-the-badge
 [contributors-url]: https://github.com/TanThangDev/utilsio/graphs/contributors

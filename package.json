@@ -1,6 +1,6 @@
 {
   "name": "utilsio",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "UtilsIO",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -33,5 +33,8 @@
     "tslint": "^6.1.3",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
   }
 }
