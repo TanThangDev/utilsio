@@ -43,7 +43,7 @@ export const validateURL = (url: string): boolean => {
 };
 
 export const validateDomain = (domain: string): boolean => {
-  return /^((?!-)[A-Za-z0-9-]{1,63}(?<!-)\\.)+[A-Za-z]{2,6}$/.test(domain);
+  return /^[a-zA-Z0-9-\.]{1,61}\.[a-zA-Z]{2,}$/.test(domain);
 };
 
 export const validateIP = (ip: string): boolean => {

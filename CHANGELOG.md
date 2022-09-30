@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.0.4
+
+### Added or Changed
+
+- Add function capitalizeFirstLetter, capitalizeEachWord
+- optimize valiadate domain
+
+### Removed
+
 ## v1.0.2
 
 ### Added or Changed

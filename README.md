@@ -107,6 +107,8 @@
     <li><a href="/src/string/randomString.ts">Random String</a></li>
     <li><a href="/src/string/stripcslashes.ts">stripcslashes</a></li>
     <li><a href="/src/string/parseVariables.ts">parseVariables</a></li>
+    <li><a href="/src/string/capitalizeFirstLetter.ts">capitalizeFirstLetter</a></li>
+    <li><a href="/src/string/capitalizeEachWord.ts">capitalizeEachWord</a></li>
   </ul>
 
 ## Number
