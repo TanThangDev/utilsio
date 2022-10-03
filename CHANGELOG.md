@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.0.5
+
+### Added or Changed
+
+- Change logic removeEmptyArray
+
+### Removed
+
 ## v1.0.4
 
 ### Added or Changed

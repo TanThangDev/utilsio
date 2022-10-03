@@ -1,8 +1,7 @@
 export const removeEmptyArray = (array: any[]) => {
-  const newArray = [...array];
+  const newArray: any[] = [];
   for (const key in array) {
-    if (array[key] === null || array[key] === undefined)
-      newArray.splice(Number(key), 1);
+    if (array[key]) newArray.push(array[key]);
   }
   return newArray;
 };
