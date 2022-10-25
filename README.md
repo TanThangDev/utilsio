@@ -41,6 +41,7 @@
   <li><a href="#money">Money</a></li>
   <li><a href="#regex">Regex</a></li>
   <li><a href="#request">Request</a></li>
+  <li><a href="#delay">Delay</a></li>
 </ol>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -153,6 +154,12 @@
 
   <ul>
     <li><a href="/src/request/index.ts">Simple Request</a></li>
+  </ul>
+
+## Delay
+
+  <ul>
+    <li><a href="/src/delay/index.ts#L1">Delay Promise</a></li>
   </ul>
 
 <!-- SETTING -->
