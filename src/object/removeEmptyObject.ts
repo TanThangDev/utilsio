@@ -1,4 +1,4 @@
-import { IObject } from 'interface';
+import { IObject } from '../interface';
 
 export const removeEmptyObject = (object: IObject) => {
   const result = {};

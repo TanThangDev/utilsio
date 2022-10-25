@@ -1,5 +1,5 @@
 import fetch from 'isomorphic-fetch';
-import { isEmptyObj } from 'object/isEmptyObj';
+import { isEmptyObj } from '../object/isEmptyObj';
 
 export enum Method {
   GET = 'GET',

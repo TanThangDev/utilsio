@@ -1,4 +1,4 @@
-import { IObject } from 'interface';
+import { IObject } from '../interface';
 
 export const parseVariables = (
   template: string,

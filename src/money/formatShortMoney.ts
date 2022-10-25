@@ -1,4 +1,4 @@
-import { formatDecimalNumber } from 'number/formatDecimalNumber';
+import { formatDecimalNumber } from '../number/formatDecimalNumber';
 
 export const formatShortMoney = (money = 0): string => {
   if (!money) return '0';

@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.0.10
+
+### Added or Changed
+
+- Fix import file
+
+### Removed
+
 ## v1.0.7
 
 ### Added or Changed

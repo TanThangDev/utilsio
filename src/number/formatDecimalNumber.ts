@@ -1,4 +1,4 @@
-import { regexIndexOf } from 'regex/regexIndexOf';
+import { regexIndexOf } from '../regex/regexIndexOf';
 import { formatMoney } from '../money/formatMoney';
 
 export const formatDecimalNumber = (money: number, length = 4): any => {
