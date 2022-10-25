@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.0.6
+
+### Added or Changed
+
+- Add format Money
+- Add regexIndexOf
+- Add format Decimal Number
+- Add Check Empty Object
+- Add Simple Request
+
+### Removed
+
 ## v1.0.5
 
 ### Added or Changed

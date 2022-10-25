@@ -6,3 +6,6 @@ export * from './number';
 export * from './url';
 export * from './validate';
 export * from './ip';
+export * from './money';
+export * from './regex';
+export * from './request';

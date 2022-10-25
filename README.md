@@ -38,6 +38,9 @@
   <li><a href="#number">Number</a></li>
   <li><a href="#ip">Ip</a></li>
   <li><a href="#url">Url</a></li>
+  <li><a href="#money">Money</a></li>
+  <li><a href="#regex">Regex</a></li>
+  <li><a href="#request">Request</a></li>
 </ol>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -91,6 +94,7 @@
     <li><a href="/src/object/removeEmptyObject.ts">Remove Empty Object</a></li>
     <li><a href="/src/object/removeNullObject.ts">Remove Null Object</a></li>
     <li><a href="/src/object/uniqueObject.ts">Unique Object</a></li>
+    <li><a href="/src/object/isEmptyObj.ts">Check Empty Object</a></li>
   </ul>
 
 ## Array
@@ -109,12 +113,14 @@
     <li><a href="/src/string/parseVariables.ts">parseVariables</a></li>
     <li><a href="/src/string/capitalizeFirstLetter.ts">capitalizeFirstLetter</a></li>
     <li><a href="/src/string/capitalizeEachWord.ts">capitalizeEachWord</a></li>
+    <li><a href="/src/string/isAscii.ts">isAscii</a></li>
+    <li><a href="/src/string/shortenString.ts">shortenString</a></li>
   </ul>
 
 ## Number
 
   <ul>
-    <li><a href="#">Todo</a></li>
+    <li><a href="/src/number/formatDecimalNumber.ts">Format Decimal Number</a></li>
   </ul>
 
 ## Ip
@@ -128,6 +134,25 @@
   <ul>
     <li><a href="/src/url/getDomainFromUrl.ts">Get Domain From Url</a></li>
     <li><a href="/src/url/isValidHttpUrl.ts">is Valid Http Url</a></li>
+  </ul>
+
+## Money
+
+  <ul>
+    <li><a href="/src/money/formatMoney.ts">Format Money</a></li>
+    <li><a href="/src/money/formatShortMoney.ts">Format Short Money</a></li>
+  </ul>
+
+## Regex
+
+  <ul>
+    <li><a href="/src/regex/regexIndexOf.ts">regexIndexOf</a></li>
+  </ul>
+
+## Request
+
+  <ul>
+    <li><a href="/src/request/index.ts">Simple Request</a></li>
   </ul>
 
 <!-- SETTING -->
