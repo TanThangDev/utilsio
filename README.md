@@ -121,6 +121,20 @@
 ## Number
 
   <ul>
+    <li><a href="/src/number/math.ts#L3">addNumber</a></li>
+    <li><a href="/src/number/math.ts#L9">subNumber</a></li>
+    <li><a href="/src/number/math.ts#L15">mulNumber</a></li>
+    <li><a href="/src/number/math.ts#L21">divNumber</a></li>
+    <li><a href="/src/number/math.ts#L27">modNumber</a></li>
+    <li><a href="/src/number/math.ts#L33">powNumber</a></li>
+    <li><a href="/src/number/math.ts#L39">sqrtNumber</a></li>
+    <li><a href="/src/number/math.ts#L44">absNumber</a></li>
+    <li><a href="/src/number/math.ts#L49">ceilNumber</a></li>
+    <li><a href="/src/number/math.ts#L54">floorNumber</a></li>
+    <li><a href="/src/number/math.ts#L59">roundNumber</a></li>
+    <li><a href="/src/number/math.ts#L64">randomNumber</a></li>
+    <li><a href="/src/number/math.ts#L69">getRootPrice</a></li>
+    <li><a href="/src/number/math.ts#L77">zeroPad</a></li>
     <li><a href="/src/number/formatDecimalNumber.ts">Format Decimal Number</a></li>
   </ul>
 

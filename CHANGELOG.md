@@ -4,6 +4,14 @@
 
 ### Added or Changed
 
+- Fix format Decimal number
+
+### Removed
+
+## v1.0.10
+
+### Added or Changed
+
 - Fix import file
 
 ### Removed
