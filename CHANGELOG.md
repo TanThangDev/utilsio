@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.0.12
+
+### Added or Changed
+
+- add format Decimal number to String
+
+### Removed
+
 ## v1.0.10
 
 ### Added or Changed

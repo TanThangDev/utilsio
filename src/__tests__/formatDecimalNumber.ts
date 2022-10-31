@@ -1,9 +1,12 @@
-import { formatDecimalNumber } from '../number/formatDecimalNumber';
+import {
+  formatDecimalNumber,
+  formatDecimalNumberToString,
+} from '../number/formatDecimalNumber';
 
 describe('formatDecimalNumber', () => {
   // beforeEach(async () => {});
 
-  it.skip('should number int', () => {
+  it('should number int', () => {
     const number1 = 1000;
     const result = formatDecimalNumber(number1);
     expect(result).toEqual(1000);
@@ -26,9 +29,9 @@ describe('formatDecimalNumber', () => {
     const result4 = formatDecimalNumber(number4, 6);
     expect(result4).toEqual(1000.12);
 
-    const number5 = 0.000001;
-    const result5 = formatDecimalNumber(number5);
-    expect(result5).toEqual(0.000001);
+    const number5 = 0.00000101501;
+    const result5 = formatDecimalNumber(number5, 3);
+    expect(result5).toEqual(0.00000102);
 
     const number6 = 1000.000123456789;
     const result6 = formatDecimalNumber(number6, 3);
@@ -53,5 +56,15 @@ describe('formatDecimalNumber', () => {
     const number11 = 0.0079999999;
     const result11 = formatDecimalNumber(number11);
     expect(result11).toEqual(0.008);
+  });
+
+  it('should number scientific notation', () => {
+    const number1 = 0.000000092643424;
+    const result = formatDecimalNumberToString(number1);
+    expect(result).toEqual('0.000000093');
+
+    const number2 = 0.000000092643454;
+    const result2 = formatDecimalNumberToString(number2, 6);
+    expect(result2).toEqual('0.0000000926435');
   });
 });

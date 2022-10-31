@@ -135,7 +135,8 @@
     <li><a href="/src/number/math.ts#L64">randomNumber</a></li>
     <li><a href="/src/number/math.ts#L69">getRootPrice</a></li>
     <li><a href="/src/number/math.ts#L77">zeroPad</a></li>
-    <li><a href="/src/number/formatDecimalNumber.ts">Format Decimal Number</a></li>
+    <li><a href="/src/number/formatDecimalNumber.ts#L38">Format Decimal Number</a></li>
+    <li><a href="/src/number/formatDecimalNumber.ts#L3">Format Decimal Number To String</a></li>
   </ul>
 
 ## Ip
