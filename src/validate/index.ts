@@ -18,8 +18,22 @@ export const validateEmail = (value: string): boolean => {
   return /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(value);
 };
 
-export const validatePassword = (password: string): boolean => {
-  return /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/.test(password);
+export const validatePassword = (password: string, level = 1): boolean => {
+  if (level === 1) {
+    return password.length >= 8;
+  } else if (level === 2) {
+    // pass with 8 characters and at least 1 number
+    return /^(?=.*[0-9]).{8,}$/.test(password);
+  } else if (level === 3) {
+    // pass with 8 characters and at least 1 number and 1 uppercase letter
+    return /^(?=.*[0-9])(?=.*[A-Z]).{8,}$/.test(password);
+  } else if (level > 3) {
+    // pass with 8 characters and at least 1 number and 1 uppercase letter and 1 lowercase letter and special character
+    return /^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*]).{8,}$/.test(
+      password,
+    );
+  }
+  return false;
 };
 
 export const validatePhone = (phone: string): boolean => {

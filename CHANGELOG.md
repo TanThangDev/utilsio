@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.0.13
+
+### Added or Changed
+
+- fix validate Password
+
+### Removed
+
 ## v1.0.12
 
 ### Added or Changed
